@@ -1,0 +1,3 @@
+Remarque principale de l'IA : L'IA a bien identifié la ligne 29 comme responsable du crash et a correctement diagnostiqué un NullPointerException à cause d'un findViewById retournant null.
+Cause diagnostiquée : L'IA a juste sur la cause (findViewById retourne null car l'ID n'existe pas), mais elle a manqué l'indice dans le vrai layout : le bouton s'appelle btnPartager et pas.
+Correction proposée : La correction exacte est simplement de changer R.id.btnPartage en R.id.btnPartager dans la ligne 29.
